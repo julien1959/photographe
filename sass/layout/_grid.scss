@@ -15,9 +15,9 @@ header{
     align-items: center;
     
     ul{
-        display: grid;
+        display: grid;        
         grid-template-areas: "menu1 menu2 menu3 menu4";
-        justify-content: space-around;      
+        justify-content: space-between;      
     }      
 }
 
