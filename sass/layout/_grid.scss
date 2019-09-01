@@ -67,3 +67,8 @@ footer{
 .logo4{
     grid-area: logo4;
 }
+
+.main_prestations{
+    display: grid;
+    grid-template-areas: "naissances bébés grossesses";
+}

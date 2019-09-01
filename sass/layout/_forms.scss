@@ -3,8 +3,80 @@ body{
     font-size: 1.5rem;    
 }
 
+.main_galerie{
+
+    margin-left: 5%;
+    margin-right: 5%;
+
+    h1{
+        color: $color;
+        text-align: center;
+        margin-bottom: 50px;
+        border: 3px solid $primary;
+        border-radius: 5px;
+    }
+
+    table{
+        width: 100%;        
+    }
+
+    img{
+        width: 100%;
+        height: 200px;
+    }    
+}
+
 .img_accueil{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    height: 800px;
+    border-radius: 20px;
+}
+
+.main_contact{
+
+    h1{
+        color: $color;
+        text-align: center;
+        margin-bottom: 50px;
+    } 
+
+    form{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+        legend{
+            margin-bottom: 20px;
+        } 
+        
+        a{
+            color: white;
+            background-color: $primary;   
+            border-radius: 5px;                  
+        }        
+}
+
+.descriptive{
+    margin: 50px;
+}
+
+.main_prestations{
+
+    img{
+        width: 100%;
+        height: 200px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
+    article{
+        margin: 50px;
+    }
+
+    h1{        
+        text-align: center;
+        margin-bottom: 20px;
+        color: $primary;
+    }
 }
