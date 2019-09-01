@@ -5,21 +5,28 @@
 }
 
 body {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
+  grid-gap: 20px;
   grid-template-areas: "header header header header" "main main main main" "footer footer footer footer";
 }
 
 header {
   grid-area: header;
-}
-header nav {
-  grid-column-start: 2;
+  display: grid;
+  grid-template-areas: "img nav nav nav";
+  align-items: center;
 }
 header ul {
   display: grid;
   grid-template-areas: "menu1 menu2 menu3 menu4";
+  justify-content: space-around;
 }
 
 .menu1 {
@@ -45,10 +52,57 @@ main {
 footer {
   grid-area: footer;
 }
+footer ul {
+  display: grid;
+  grid-template-areas: "logo1 logo2 logo3 logo4";
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.logo1 {
+  grid-area: logo1;
+}
+
+.logo2 {
+  grid-area: logo2;
+}
+
+.logo3 {
+  grid-area: logo3;
+}
+
+.logo4 {
+  grid-area: logo4;
+}
+
+header img {
+  border-radius: 150px;
+  margin: 20px 0 0 20px;
+  width: auto;
+}
+header li {
+  list-style: none;
+}
+header a {
+  text-decoration: none;
+}
+header a:visited {
+  color: black;
+}
+
+footer li {
+  list-style: none;
+}
 
 body {
-  background-color: yellow;
+  background-color: beige;
   font-size: 1.5rem;
+}
+
+.img_accueil {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*# sourceMappingURL=style.css.map */
