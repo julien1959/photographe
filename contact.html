@@ -1,13 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="sass/style.css">
-    <title>Contact</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="sass/style.css">
+        <title>Contact</title>
+    </head>
+    <body>
+        <header>
+            <img src="" alt="">
+            
+            <nav>
+                <ul>
+                    <li class="menu1"><a href="index.html">Accueil</a></li>
+                    <li class="menu2"><a href="galerie.html">Galerie</a></li>
+                    <li class="menu3"><a href="contact.html">Contact</a></li>
+                    <li class="menu4"><a href="prestations.html">Prestations</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <form>
+                <fieldset>
+                    <legend>Prenez rendez vous en ligne</legend>
+                    <p>
+                        <label for="praticien">Choisissez votre praticien:</label><br>
+                        <select name="praticien" id="praticien">
+                            <option value="medecin">Médecin généraliste</option>
+                            <option value="dentiste">Dentiste</option>
+                        </select>
+                    </p>
+                     <p>
+                        <label for="name">Nom:</label><br>
+                        <input type="text">
+                    </p>
+                    <p>
+                        <label for="first_name">Prénom:</label><br>
+                        <input type="text">                
+                    </p>
+                    <p>
+                        <label for="commentaire">Commentaire:</label><br>
+                        <textarea name="commentaire"    id="commentaire"   cols="30" rows="10"></textarea>
+                    </p>                        
+                    <a href="#">Envoyer</a>
+                </fieldset>
+            </form>
+        </main>
+
+        <footer>
+            <nav>
+                <ul>
+                    <li><a href="#"></a><img src="images/icone_facebook.svg" alt="logo facebook"></li>
+                    <li><a href="#"></a><img src="images/icone_google-plus.svg" alt="logo google plus"></li>
+                    <li><a href="#"></a><img src="images/icone_twitter.svg" alt="logo twitter"></li>
+                    <li><a href="#"></a><img src="images/icone_instagram.svg" alt="logo instagram"></li>                    
+                </ul>
+            </nav>
+        </footer>
+    </body>
 </html>

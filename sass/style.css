@@ -5,7 +5,50 @@
 }
 
 body {
-  background-color: red;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas: "header header header header" "main main main main" "footer footer footer footer";
+}
+
+header {
+  grid-area: header;
+}
+header nav {
+  grid-column-start: 2;
+}
+header ul {
+  display: grid;
+  grid-template-areas: "menu1 menu2 menu3 menu4";
+}
+
+.menu1 {
+  grid-area: menu1;
+}
+
+.menu2 {
+  grid-area: menu2;
+}
+
+.menu3 {
+  grid-area: menu3;
+}
+
+.menu4 {
+  grid-area: menu4;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
+}
+
+body {
+  background-color: yellow;
+  font-size: 1.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */
